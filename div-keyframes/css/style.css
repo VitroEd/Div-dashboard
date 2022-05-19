@@ -1,0 +1,49 @@
+#anima-div{
+    width: 250px;
+    height: 250px;
+    background: #3dff;
+    position: relative;
+    border-radius: 50%;
+    animation: mov-div 5s infinite;
+}
+
+/*
+loop basico
+teleporta pra cima
+
+@keyframes mov-div{
+    from{top: 0px;}
+    to{top: 300px;}
+}
+*/
+
+/*
+loop bonito
+sobe e desce suave 
+
+@keyframes mov-div{
+      0%{top: 0px;}
+     25%{top: 250px;}
+     50%{top: 50px;}
+     75%{top: 400px;}
+    100%{top: 0px;}
+}
+*/
+
+/*
+amimação quadradinho
+
+@keyframes mov-div{
+    0%{top: 0px; left: 0px; background: violet;}
+   25%{top: 0px; left: 300px; background: yellow;}
+   50%{top: 300px; left: 300px; background: springgreen;}
+   75%{top: 300px; left: 0px; background: turquoise;}
+  100%{top: 0px; left: 0px; background: blueviolet;}
+}
+*/
+
+@keyframes mov-div{
+    0%{width: 0px; background: yellowgreen;}
+    50%{width: 400px; background: yellow;}
+    100%{width: 0px; background: yellowgreen;}
+}
